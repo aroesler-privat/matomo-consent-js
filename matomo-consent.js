@@ -6,26 +6,28 @@
  * - fill in showMatomoCookieBanner_url and showMatomoCookieBanner_id
  * - include the script in your page
  * - DO NOT INCLUDE THE MATOMO-JAVASCRIPT CODE ANYMORE
+ *
+ * Rear more: https://github.com/aroesler-privat/matomo-consent-js
  * *********************************************************************** */
 
 var showMatomoCookieBanner_url = "FIXME";
 var showMatomoCookieBanner_id  = "FIXME";
 
 /* class: .MatomoCookieBanner .theText */
-var showMatomoCookieBannerText = "Ich verwende Cookies auf meiner Website. Das machen fast alle anderen auch &#x1f643;. Die Cookies helfen mir zu verstehen, wie oft welche Inhalte aufgerufen werden und meine Seite anzupassen. Dazu nutze ich die anonymisierte Auswertung von Matomo.";
+var showMatomoCookieBannerText = "I use cookies on my website. Almost everyone else does too &#x1f643;. The cookies help me to understand how often which content is called. So I can adapt my page. For this purpose, I use the anonymous evaluation of Matomo.";
 
 /* class: .MatomoCookieBanner .theReadmore */
-var showMatomoCookieBannerReadmoreText = "Mehr lesen";
+var showMatomoCookieBannerReadmoreText = "Read more";
 var showMatomoCookieBannerReadmoreLink = "FIXME";
 
 /* class: .MatomoCookieBanner .theAccept */
-var showMatomoCookieBannerAcceptText = "Akzeptieren";
+var showMatomoCookieBannerAcceptText = "Accept";
 
 /* texts when printing the time when consent was given */
-var showMatomoCookieBanner_NoConsentGiven = "Keine Zustimmung erteilt";
-var showMatomoCookieBanner_ConsentGiven = "Zustimmung erteilt am ";
-var showMatomoCookieBanner_ConsentError = "Fehler";
-var showMatomoCookieBanner_ConsentForget = "Zustimmung zurückziehen";
+var showMatomoCookieBanner_NoConsentGiven = "No consent given";
+var showMatomoCookieBanner_ConsentGiven = "Consent given on ";
+var showMatomoCookieBanner_ConsentError = "Error";
+var showMatomoCookieBanner_ConsentForget = "Forget consent";
 
 /* 0 -> no debug, any other integer: amount of hours to remember cookies */
 var showMatomoCookieBannerDebug = false; 
