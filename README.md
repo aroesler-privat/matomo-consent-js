@@ -95,6 +95,12 @@ The CSS class are in comments above the text fields. A typical CSS file could lo
 }
 ```
 
+## Status of the consent
+The `matomo_writeRememberedConsent(id, revoke)` function can be used to indicate on the web page whether the current visitor* has given his/her consent. Optionally, a link can also be issued to revoke consent. 
+
+* **id** is either `null` or the ID of a DIV or SPAN object. Its text will then be replaced by the output of the command. If `id==null` or not valid, the text is simply returned by return. 
+* If **revoke** is set to `true`, the output is supplemented by a link which can be used to revoke the consent.
+
 ## Troubleshooting
 If `showMatomoCookieBannerDebug` is set to true, the script writes some further information to the console. In addition, a set consent is then forgotten again with each call.
 
