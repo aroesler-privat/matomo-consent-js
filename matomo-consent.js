@@ -179,7 +179,7 @@ function showMatomoCookieBanner()
 
 	banner.style.position = "fixed";
 	banner.style.padding = "1em 2em";
-	banner.style.backgroundColor = hexToRGB(showMatomoCookieBannerBackground, "0.3");
+	banner.style.backgroundColor = hexToRGB(showMatomoCookieBannerBackground, "0.9");
 	banner.style.color = showMatomoCookieBannerColor;
 	banner.style.bottom = "0";
 	banner.style.left = "0";
