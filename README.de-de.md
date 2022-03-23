@@ -1,6 +1,6 @@
 # matomo-consent.js
 
-Das ist eine kleine Java-Bibliothek, die in statische Webseiten eingebunden werden kann. Sie kümmert sich darum, dass Matomo Besucherstatistiken erstellt und achtet darauf, dass Besucher dem zustimmen. Haben Besucher der Webseite noch nicht zugestimmt, so sehen sie die bekannte kleine Cookie-Leiste. Alle Texte sind konfigurierbar. Die Bibliothek nutzt ausschließlich Funktionalitäten, die in Matomo enthalten sind. 
+Das ist eine kleine JavaScript-Bibliothek, die in statische Webseiten eingebunden werden kann. Sie kümmert sich darum, dass Matomo Besucherstatistiken erstellt und achtet darauf, dass Besucher dem zustimmen. Haben Besucher der Webseite noch nicht zugestimmt, so sehen sie die bekannte kleine Cookie-Leiste. Alle Texte sind konfigurierbar. Die Bibliothek nutzt ausschließlich Funktionalitäten, die in Matomo enthalten sind. 
 
 Beispiel: [Meine Webseite](https://www.gestreift.net)
 
