@@ -8,15 +8,15 @@
  * - DO NOT INCLUDE THE MATOMO-JAVASCRIPT CODE ANYMORE
  * *********************************************************************** */
 
-var showMatomoCookieBanner_url = "//analytics.gestreift.net/";
-var showMatomoCookieBanner_id  = "5";
+var showMatomoCookieBanner_url = "FIXME";
+var showMatomoCookieBanner_id  = "FIXME";
 
 /* class: .MatomoCookieBanner .theText */
 var showMatomoCookieBannerText = "Ich verwende Cookies auf meiner Website. Das machen fast alle anderen auch &#x1f643;. Die Cookies helfen mir zu verstehen, wie oft welche Inhalte aufgerufen werden und meine Seite anzupassen. Dazu nutze ich die anonymisierte Auswertung von Matomo.";
 
 /* class: .MatomoCookieBanner .theReadmore */
 var showMatomoCookieBannerReadmoreText = "Mehr lesen";
-var showMatomoCookieBannerReadmoreLink = "imprint.html#cookies";
+var showMatomoCookieBannerReadmoreLink = "FIXME";
 
 /* class: .MatomoCookieBanner .theAccept */
 var showMatomoCookieBannerAcceptText = "Akzeptieren";
@@ -234,9 +234,7 @@ if(window.attachEvent)
    The Matomo tracking code
    ----------------------------------------------------------------------- */
 var _paq = window._paq || [];
-
 _paq.push(['requireConsent']);
-
 _paq.push(['trackPageView']);
 _paq.push(['enableLinkTracking']);
 (function() {
