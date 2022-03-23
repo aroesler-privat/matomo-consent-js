@@ -94,6 +94,11 @@ Die CSS-Klasse stehen in Kommentaren über den Textfeldern. Eine typische CSS-Da
 
 }
 ```
+## Status der Zustimmung
+Mit der Funktion `matomo_writeRememberedConsent(id, revoke)` kann auf der Webseite angegeben werden, ob der/die aktuelle Besucher*in seine Zustimmung erteilt hat. Optional kann auch ein Link ausgegeben werden, um die Zustimmung zu widerrufen. 
+
+* **id** ist entweder `null` oder die ID eines DIV- oder SPAN-Objektes. Dessen Text wird dann durch die Ausgabe des Befehles ersetzt. Ist `id==null` oder nicht gültig, so wird der Text einfach nur per return zurückgegeben. 
+* Ist **revoke** auf `true` gesetzt, so wird die Ausgabe um einen Link ergänzt, über den die Zustimmung widerrufen werden kann.
 
 ## Fehlersuche
 Wird `showMatomoCookieBannerDebug` auf true gesetzt, so schreibt das Skript ein paar weiterführende Informationen in die Konsole. Außerdem wird dann eine gesetzte Zustimmung bei jedem Aufruf wieder vergessen.
