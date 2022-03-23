@@ -2,6 +2,8 @@
 
 This is a small Java library that can be included in static web pages. It takes care that Matomo creates visitor statistics and makes sure that visitors consent to it. If visitors have not yet given their consent, they will see the familiar small cookie bar.
 
+Read in other languages: [Deutsch](https://github.com/aroesler-privat/matomo-consent-js/blob/main/README.de-de.md)
+
 All texts are configurable. The library uses only functionalities that are included in Matomo. 
 
 ## Installation
